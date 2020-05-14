@@ -10,6 +10,6 @@ class ZooKeeperInitializer @Inject constructor() : AssignableInitializer {
         get() = false
 
     override fun init(app: Application) {
-        Log.d("init", "ZooKeeperInitializer")
+        Log.d("init", "ZooKeeperInitializer should init $shouldAssign")
     }
 }

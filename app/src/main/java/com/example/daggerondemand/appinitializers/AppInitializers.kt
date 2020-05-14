@@ -9,9 +9,9 @@ class AppInitializers @Inject constructor(
 ) {
     fun init(application: Application) {
         initializers.forEach {
-            if (it.shouldAssign) {
-                it.init(application)
-            }
+            if (it.shouldAssign) { }
+
+            it.init(application)
         }
     }
 }

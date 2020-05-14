@@ -6,6 +6,6 @@ interface AppInitializer {
     fun init(app: Application)
 }
 
-interface AssignableInitializer: AppInitializer {
+interface AssignableInitializer : AppInitializer {
     val shouldAssign: Boolean
 }
