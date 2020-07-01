@@ -20,7 +20,9 @@ class AppInitializers @Inject constructor(
 
 #### Log
 
+```
 D/init: FooInitializer should init true
 D/init: BarInitializer should init true
 D/init: ZooInitializer should init false
 D/init: ZooKeeperInitializer should init false
+```
